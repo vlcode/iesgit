@@ -106,6 +106,12 @@ body>section#slide-show {
     color: #ff001a;
     text-shadow: none;
 }
+
+#recent-works .links {
+    margin: 0 auto;
+    display: block;
+}
+
 #clients {
     background: #fff;
 }
@@ -126,7 +132,7 @@ body>section#slide-show {
     color: #999;
 }
 .title {
-    background: #ff001a;
+    background: #252525;
     color: #fff;
     padding: 20px 0;
 }
@@ -656,6 +662,15 @@ ul.gallery li .preview {
     display: block;
     position: relative;
 }
+
+.desc a {
+    color: #fff;
+}
+
+.desc a:hover {
+    color: #ff001a;
+}
+
 ul.gallery li .preview .overlay {
     width: 100%;
     height: 100%;
@@ -678,6 +693,7 @@ ul.gallery li .preview .links {
     left: 50%;
     margin-top: -20px;
     margin-left: -52px;
+
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transform: translate(0, -50px);
