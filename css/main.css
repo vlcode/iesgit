@@ -659,6 +659,10 @@ ul.gallery {
     display: block;
     margin: -15px;
 }
+
+.gallery img {
+    padding: 3%;
+}
 ul.gallery.col-1 li {
     width: 100%}
 ul.gallery.col-2 li {
@@ -676,6 +680,8 @@ ul.gallery li {
 ul.gallery li .desc {
     margin: 15px;
 }
+
+.desc h5 {text-align: center;}
 ul.gallery li .preview {
     margin: 15px;
     display: block;
@@ -812,4 +818,9 @@ ul.faq li>div h3 {
 .media {
     margin-top: 4%;
     display: block;
+}
+
+
+#contact-page .col-sm-8 {
+    margin-bottom: 5%;
 }

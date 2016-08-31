@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+     
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sl-slide.css">
@@ -78,7 +78,7 @@
                     <div class="center">
                         <i style="font-size: 48px" class="icon-heart icon-large"></i>
                         <p> </p>
-                        <h4>Консультации с выбором университета</h4>
+                        <h4>Помощь в выборе университета</h4>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
                     </div>
                 </div>
@@ -90,7 +90,7 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="center">
-                        <i style="font-size: 48px" class="icon-globe icon-large"></i>
+                        <i style="font-size: 48px" class="icon-camera icon-large"></i>
                         <p> </p>
                         <h4>Помощь в адаптации в новой стране</h4>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>
@@ -99,7 +99,7 @@
 
                 <div class="col-sm-4">
                     <div class="center">
-                        <i style="font-size: 48px" class="icon-camera icon-large"></i>
+                        <i style="font-size: 48px" class="icon-globe icon-large"></i>
                         <p> </p>
                         <h4>Полная юридическая поддержка на всех этапах поступления</h4>
                         <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio.</p>

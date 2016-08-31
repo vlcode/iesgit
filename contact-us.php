@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+     
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sl-slide.css">
@@ -37,13 +37,13 @@
     <section id="contact-page" class="container">
         <div class="row">
 
-            <div class="span8">
-                <h4>Свяжитесь с нами</h4>
+            <div class="col-sm-12">
+                <h1 class="center">Свяжитесь с нами</h1>
                 <div class="status alert alert-success" style="display: none"></div>
 
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
                   <div class="row">
-                    <div class="span5">
+                    <div class="col-sm-6">
                         <label>Ф.И.О.</label>
                         <input type="text" class="input-block-level" required="required" placeholder="Your First Name">
                         <label>Телефон</label>
@@ -51,7 +51,7 @@
                         <label>Email </label>
                         <input type="text" class="input-block-level" required="required" placeholder="Your email address">
                     </div>
-                    <div class="span7">
+                    <div class="col-sm-6">
                         <label>Сообщение</label>
                         <textarea name="message" id="message" required="required" class="input-block-level" rows="8"></textarea>
                     </div>
@@ -63,7 +63,7 @@
             </form>
         </div>
 
-        <div class="span3">
+        <div class="col-sm-12 hidden-xs">
             <h4>Наш адрес</h4>
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
             <p>

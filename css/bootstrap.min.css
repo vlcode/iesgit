@@ -4421,6 +4421,9 @@ button.close {
     .visible-xs {
     display: block!important;
 }
+    .navbar-nav li a {
+        line-height: 20px !important;
+    }
 table.visible-xs {
     display: table;
 }

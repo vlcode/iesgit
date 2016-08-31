@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-<!--    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sl-slide.css">
@@ -101,7 +100,7 @@
                 <p class="no-margin">Потратив 2 минуты Вашего времени, Вы делаете первый шаг навстречу Вашей мечте о престижном зарубежном образовании </p>
             </div>
             <div class="col-md-3">
-                <a class="btn btn-success btn-large pull-right" href="http://shapebootstrap.net">Внести данные</a>
+                <a class="btn btn-success btn-large pull-right btn-otpravit" href="http://shapebootstrap.net">Внести данные</a>
             </div>
         </div>
     </div>
@@ -206,54 +205,44 @@
         <ul class="gallery">
             <!--Item 1-->
             <li class="col-sm-3">
-                <div class="preview">
+                <div>
                     <a href="#"><img alt=" " src="images/portfolio/thumb/item1.jpg" class="img-responsive"></a>
                     <div class="overlay">
                     </div>
                     
                 </div>
                 <div class="desc">
-                    <a href="index.php"> <h5>Lorem ipsum dolor sit amet</h5></a>
+                    <a href="index.php"> <h5>Oxford</h5></a>
                 </div>
-                <div id="modal-1" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/portfolio/full/item1.jpg" alt=" " class="img-responsive">
-                    </div>
-                </div>                 
+                         
             </li>
             <!--/Item 1--> 
 
             <!--Item 2-->
             <li class="col-sm-3">
-                <div class="preview">
+                <div>
                     <a href="#"><img alt=" " src="images/portfolio/thumb/item2.jpg" class="img-responsive"></a>
                     <div class="overlay">
                     </div>
                     
                 </div>
                 <div class="desc">
-                    <a href="index.php"> <h5>Lorem ipsum dolor sit amet</h5></a>
+                    <a href="index.php"> <h5>University of Michigan</h5></a>
                 </div>
-                <div id="modal-1" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/portfolio/full/item2.jpg" alt=" " class="img-responsive">
-                    </div>
-                </div>                 
+                
             </li>
             <!--/Item 2-->
 
             <!--Item 3-->
             <li class="col-sm-3">
-                <div class="preview">
-                    <img alt=" " src="images/portfolio/thumb/item3.jpg" class="img-responsive">
+                <div>
+                    <a href="#"><img alt=" " src="images/portfolio/thumb/item3.jpg" class="img-responsive"></a>
                     <div class="overlay">
                     </div>
                     
                 </div>
                 <div class="desc">
-                   <a href="index.php"> <h5>Lorem ipsum dolor sit amet</h5></a>
+                   <a href="index.php"> <h5>Hogwarts</h5></a>
                 </div>
                                 
             </li>
@@ -261,21 +250,16 @@
 
             <!--Item 4-->
             <li class="col-sm-3">
-                <div class="preview">
+                <div>
                     <a href="#"><img alt=" " src="images/portfolio/thumb/item4.jpg" class="img-responsive"></a>
                     <div class="overlay">
                     </div>
                     
                 </div>
                 <div class="desc">
-                    <a href="index.php"> <h5>Lorem ipsum dolor sit amet</h5></a>
+                    <a href="index.php"> <h5>Harvard</h5></a>
                 </div>
-                <div id="modal-4" class="modal hide fade">
-                    <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
-                    <div class="modal-body">
-                        <img src="images/portfolio/full/item4.jpg" alt=" " class="img-responsive">
-                    </div>
-                </div>                 
+                         
             </li>
             <!--/Item 4-->               
 
