@@ -35,12 +35,12 @@
 
     <section class="title">
         <div class="container">
-            <div class="row-fluid">
-                <div class="span6">
-                    <h1>Blog</h1>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Блог</h1>
                 </div>
 <!--
-                <div class="span6">
+                <div class="col-xs-12">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.php">Home</a> <span class="divider">/</span></li>
                         <li class="active">Blog</li>
@@ -53,7 +53,7 @@
     <!-- / .title -->         
 
     <section id="about-us" class="container main">
-        <div class="row-fluid">
+        <div class="row">
             <div class="span12">
                 <div class="blog">
                     <div class="blog-item well">
@@ -77,6 +77,7 @@
               <div class="gap"></div>
 
               <!-- Paginationa -->
+<!--
               <div class="pagination">
                 <ul>
                     <li><a href="#"><i class="icon-angle-left"></i></a></li>
@@ -88,6 +89,7 @@
                     <li><a href="#"><i class="icon-angle-right"></i></a></li>
                 </ul>
             </div>
+-->
 
 
         </div>

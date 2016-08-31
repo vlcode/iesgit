@@ -34,11 +34,11 @@
 
     <section class="title">
         <div class="container">
-            <div class="row-fluid">
-                <div class="span6">
+            <div class="row">
+                <div class="col-xs-12">
                     <h1>Pricing</h1>
                 </div>
-                <div class="span6">
+                <div class="col-xs-12">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.php">Home</a> <span class="divider">/</span></li>
                         <li><a href="#">Pages</a> <span class="divider">/</span></li>
@@ -58,7 +58,7 @@
 
         <div class="big-gap"></div>
 
-        <div class="row-fluid center clearfix">
+        <div class="row center clearfix">
             <div class="span3">
                 <ul class="plan plan1">
                     <li class="plan-name">

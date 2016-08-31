@@ -35,12 +35,12 @@
 
     <section class="title">
         <div class="container">
-            <div class="row-fluid">
-                <div class="span6">
+            <div class="row">
+                <div>
                     <h1>Услуги</h1>
                 </div>
 <!--
-                <div class="span6">
+                <div class="col-xs-12">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.php">Home</a> <span class="divider">/</span></li>
                         <li class="active">Services</li>
@@ -55,8 +55,8 @@
     
     <section class="services">
         <div class="container">
-            <div class="row-fluid">
-                <div class="span4">
+            <div class="row">
+                <div class="col-sm-4">
                     <div class="center">
                         <i style="font-size: 48px" class="icon-bar-chart icon-large"></i>
                         <p> </p>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
 
-                <div class="span4">
+                <div class="col-sm-4">
                     <div class="center">
                         <i style="font-size: 48px" class="icon-cog icon-large"></i>
                         <p> </p>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
 
-                <div class="span4">
+                <div class="col-sm-4">
                     <div class="center">
                         <i style="font-size: 48px" class="icon-heart icon-large"></i>
                         <p> </p>
@@ -87,8 +87,8 @@
 
             <hr>
 
-            <div class="row-fluid">
-                <div class="span4">
+            <div class="row">
+                <div class="col-sm-4">
                     <div class="center">
                         <i style="font-size: 48px" class="icon-globe icon-large"></i>
                         <p> </p>
@@ -97,7 +97,7 @@
                     </div>
                 </div>
 
-                <div class="span4">
+                <div class="col-sm-4">
                     <div class="center">
                         <i style="font-size: 48px" class="icon-camera icon-large"></i>
                         <p> </p>
@@ -106,7 +106,7 @@
                     </div>
                 </div>
 
-                <div class="span4">
+                <div class="col-sm-4">
                     <div class="center">
                         <i style="font-size: 48px" class="icon-bullhorn icon-large"></i>
                         <p> </p>

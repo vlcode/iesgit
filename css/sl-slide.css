@@ -99,15 +99,15 @@
 	display: none;
 }
 .sl-slide-horizontal .sl-slide-inner {
-	background: #252525;
+	background: #fff;
 }
 
 .sl-slide-vertical .sl-slide-inner {
-	background: #252525;
+	background: #fff;
 }
 
 .item3 .sl-slide-inner {
-	background: #252525;
+	background: #fff;
 }
 
 .sl-slider h2 {
@@ -120,7 +120,7 @@
 }
 
 .sl-slider h2, .sl-slider h3{
-	color: #fff;
+	color: #000;
 }
 
 .sl-slider h3 {
@@ -148,7 +148,7 @@
 	display: block;
 	line-height: 80px;
 	font-size: 48px;
-	color: rgba(255,255,255,.3);
+/*	color: rgba(255,255,255,.3);*/
 	text-align: center;
 	cursor: pointer;
 	-webkit-transition: 300ms;
@@ -158,7 +158,7 @@
 	transition: 300ms;
 }
 .nav-arrows span:hover {
-	color: #fff;	
+	color: #000;	
 }
 .nav-arrows span.nav-arrow-prev {
 	left: 0;

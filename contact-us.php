@@ -35,14 +35,14 @@
     
 
     <section id="contact-page" class="container">
-        <div class="row-fluid">
+        <div class="row">
 
             <div class="span8">
                 <h4>Свяжитесь с нами</h4>
                 <div class="status alert alert-success" style="display: none"></div>
 
                 <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="sendemail.php">
-                  <div class="row-fluid">
+                  <div class="row">
                     <div class="span5">
                         <label>Ф.И.О.</label>
                         <input type="text" class="input-block-level" required="required" placeholder="Your First Name">
@@ -57,7 +57,7 @@
                     </div>
 
                 </div>
-                <button type="submit" class="btn btn-primary btn-large pull-right">Отправить</button>
+                <button type="submit" class="btn btn-primary btn-large pull-right btn-otpravit">Отправить</button>
                 <p> </p>
 
             </form>

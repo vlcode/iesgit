@@ -34,11 +34,11 @@
 
     <section class="title">
         <div class="container">
-            <div class="row-fluid">
-                <div class="span6">
+            <div class="row">
+                <div class="col-xs-12">
                     <h1>Terms of Use</h1>
                 </div>
-                <div class="span6">
+                <div class="col-xs-12">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.php">Home</a> <span class="divider">/</span></li>
                         <li><a href="#">Pages</a> <span class="divider">/</span></li>

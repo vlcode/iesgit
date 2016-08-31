@@ -34,11 +34,11 @@
 
   <section class="title">
     <div class="container">
-      <div class="row-fluid">
-        <div class="span6">
+      <div class="row">
+        <div class="col-xs-12">
           <h1>Career</h1>
         </div>
-        <div class="span6">
+        <div class="col-xs-12">
           <ul class="breadcrumb pull-right">
             <li><a href="index.php">Home</a> <span class="divider">/</span></li>
             <li><a href="#">Pages</a> <span class="divider">/</span></li>
@@ -63,9 +63,9 @@
     
     <hr>
 
-    <div class="row-fluid">
+    <div class="row">
       <!-- Left Column -->
-      <div class="span6">
+      <div class="col-xs-12">
         <h3>Creative Designer</h3>
         <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
         <h4>Requirements</h4>
@@ -96,7 +96,7 @@
      <!-- /Left Column -->
 
      <!-- Right Column -->
-     <div class="span6">
+     <div class="col-xs-12">
       <h3>Web Developer</h3>
       <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.</p>
       <h4>Requirements</h4>

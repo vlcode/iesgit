@@ -1,23 +1,31 @@
-<header class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-            <div class="container">
-                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+<header>
+     <!-- Navigation -->
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Меню</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </a>
+                </button>
                 <a id="logo" class="pull-left" href="index.php"></a>
-                <div class="nav-collapse collapse pull-right">
-                    <ul class="nav">
-                        <li><a href="index.php">Главная</a></li>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    
                         <li><a href="about-us.php">О нас</a></li>
                         <li><a href="services.php">Услуги</a></li>
                         <li><a href="universities.php">Университеты</a></li>
                         <li><a href="blog.php">Блог</a></li> 
                         <li><a href="contact-us.php">Контакты</a></li>
-                        
-                    </ul>        
-                </div><!--/.nav-collapse -->
+                </ul>
             </div>
+            <!-- /.navbar-collapse -->
         </div>
-    </header>
+        <!-- /.container -->
+    </nav>
+
+</header>

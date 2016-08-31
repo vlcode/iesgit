@@ -34,12 +34,12 @@
 
     <section class="title">
         <div class="container">
-            <div class="row-fluid">
-                <div class="span6">
-                    <h1>About Us</h1>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>О нас</h1>
                 </div>
 <!--
-                <div class="span6">
+                <div class="col-xs-12">
                     <ul class="breadcrumb pull-right">
                         <li><a href="index.php">Home</a> <span class="divider">/</span></li>
                         <li class="active">About Us</li>
@@ -52,7 +52,7 @@
     <!-- / .title -->   
 
     <section id="about-us" class="container main">
-        <div class="row-fluid">
+        <div class="row">
             <div class="span12">
                 <h2>Кто мы</h2>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>
@@ -60,26 +60,13 @@
           
         </div>
         
-        <div class="row-fluid">
-          
-            <div class="span12">
-                <h2>Процесс сотрудничества с нами</h2>
-                <div>
-                    <div class="progress"><div class="bar" style="width: 20%; text-align:left; padding-left:10px;">Консультация</div></div>
-                    <div class="progress progress-warning"><div class="bar" style="width: 40%; text-align:left; padding-left:10px;">Подписания договора</div></div>
-                    <div class="progress progress-info"><div class="bar" style="width: 60%; text-align:left; padding-left:10px;">Юридическая поддержка</div></div>
-                    <div class="progress progress-warning"><div class="bar" style="width: 80%; text-align:left; padding-left:10px;">Зачисление в университет</div></div>
-                    <div class="progress progress-danger"><div class="bar" style="width: 100%; text-align:left; padding-left:10px;">Помощь в адаптации в новой стране</div></div>
-                </div>
-            </div>
-        </div>
-
+       
         <hr>
 
         <!-- Meet the team -->
      
 
-        <div class="row-fluid">
+        <div class="row">
             <div class="span12">
                 <h3>Почему именно мы?</h3>
                 <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. Etiam pharetra, erat sed fermentum feugiat, velit mauris egestas quam, ut aliquam massa nisl quis neque. Suspendisse in orci enim.</p>

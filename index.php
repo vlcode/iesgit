@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+<!--    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/sl-slide.css">
@@ -31,9 +31,9 @@
     <!--Header-->
     <?php require 'blocks/header.php'; ?>
     <!-- /header -->
-
+    
     <!--Slider-->
-    <section id="slide-show">
+    <section id="slide-show" class="hidden-xs hidden-sm">
      <div id="slider" class="sl-slider-wrapper">
 
         <!--Slider Items-->    
@@ -42,7 +42,7 @@
             <div class="sl-slide item1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
                 <div class="sl-slide-inner">
                     <div class="container">
-                        <img class="pull-right" src="images/sample/slider/img1.png" alt="" />
+                        <img class="pull-right img-responsive" src="images/sample/slider/img1.png" alt="" />
                         <h2>Учеба за границей</h2>
                         <h3 class="gap">Мы поможем Вам достичь Ваших целей</h3>
                         <a class="btn btn-large btn-transparent" href="#">Подробнее</a>
@@ -55,7 +55,7 @@
             <div class="sl-slide item2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
                 <div class="sl-slide-inner">
                     <div class="container">
-                        <img class="pull-right" src="images/sample/slider/img2.png" alt="" />
+                        <img class="pull-right img-responsive" src="images/sample/slider/img2.png" alt="" />
                         <h2>Поддержка студентов</h2>
                         <h3 class="gap">Комплексная помощь до и во время учебы</h3>
                         <a class="btn btn-large btn-transparent" href="#">Подробнее</a>
@@ -68,7 +68,7 @@
             <div class="sl-slide item3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
                 <div class="sl-slide-inner">
                    <div class="container">
-                    <img class="pull-right" src="images/sample/slider/img3.png" alt="" />
+                    <img class="pull-right img-responsive" src="images/sample/slider/img3.png" alt="" />
                     <h2>Выгодное предложение</h2>
                     <h3 class="gap">Благодаря партнёрству мы добиваемся лучших условий для наших студентов</h3>
                     <a class="btn btn-large btn-transparent" href="#">Подробнее</a>
@@ -92,15 +92,15 @@
 </section>
 <!--/Slider-->
     
-
-<section class="main-info">
+    
+    <section class="main-info">
     <div class="container">
-        <div class="row-fluid">
-            <div class="span9">
+        <div class="row">
+            <div class="col-md-9">
                 <h4>Заполните форму и наши специалисты помогут Вам с выбором университета</h4>
                 <p class="no-margin">Потратив 2 минуты Вашего времени, Вы делаете первый шаг навстречу Вашей мечте о престижном зарубежном образовании </p>
             </div>
-            <div class="span3">
+            <div class="col-md-3">
                 <a class="btn btn-success btn-large pull-right" href="http://shapebootstrap.net">Внести данные</a>
             </div>
         </div>
@@ -111,12 +111,12 @@
 <section id="services">
     <div class="container">
         <div class="center gap">
-            <h3>Что мы предлогаем</h3>
+            <h3>Что мы предлагаем</h3>
             <p class="lead">Сотрудничество с нами выгодно для Вас не только во время поступления, но и во время получения образования в зарубежном университете</p>
         </div>
 
-        <div class="row-fluid">
-            <div class="span4">
+        <div class="row">
+            <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
                         <i class="icon-globe icon-medium"></i>
@@ -128,7 +128,7 @@
                 </div>
             </div>            
 
-            <div class="span4">
+            <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
                         <i class="icon-globe icon-medium"></i>
@@ -140,7 +140,7 @@
                 </div>
             </div>            
 
-            <div class="span4">
+            <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
                         <i class="icon-globe icon-medium icon-rounded"></i>
@@ -153,10 +153,9 @@
             </div>
         </div>
 
-        <div class="gap"></div>
 
-        <div class="row-fluid">
-            <div class="span4">
+        <div class="row">
+            <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
                         <i class="icon-globe icon-medium"></i>
@@ -168,7 +167,7 @@
                 </div>
             </div>            
 
-            <div class="span4">
+            <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
                         <i class="icon-globe icon-medium"></i>
@@ -180,7 +179,7 @@
                 </div>
             </div>            
 
-            <div class="span4">
+            <div class="col-md-4">
                 <div class="media">
                     <div class="pull-left">
                         <i class="icon-globe icon-medium"></i>
@@ -204,11 +203,11 @@
             <p class="lead">Изучите самые популярные университеты среди наших клиентов</p>
         </div>  
         <div class="gap"></div>
-        <ul class="gallery col-4">
+        <ul class="gallery">
             <!--Item 1-->
-            <li>
+            <li class="col-sm-3">
                 <div class="preview">
-                    <a href="#"><img alt=" " src="images/portfolio/thumb/item1.jpg"></a>
+                    <a href="#"><img alt=" " src="images/portfolio/thumb/item1.jpg" class="img-responsive"></a>
                     <div class="overlay">
                     </div>
                     
@@ -219,16 +218,16 @@
                 <div id="modal-1" class="modal hide fade">
                     <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
                     <div class="modal-body">
-                        <img src="images/portfolio/full/item1.jpg" alt=" " width="100%" style="max-height:400px">
+                        <img src="images/portfolio/full/item1.jpg" alt=" " class="img-responsive">
                     </div>
                 </div>                 
             </li>
             <!--/Item 1--> 
 
             <!--Item 2-->
-            <li>
+            <li class="col-sm-3">
                 <div class="preview">
-                    <a href="#"><img alt=" " src="images/portfolio/thumb/item2.jpg"></a>
+                    <a href="#"><img alt=" " src="images/portfolio/thumb/item2.jpg" class="img-responsive"></a>
                     <div class="overlay">
                     </div>
                     
@@ -239,16 +238,16 @@
                 <div id="modal-1" class="modal hide fade">
                     <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
                     <div class="modal-body">
-                        <img src="images/portfolio/full/item2.jpg" alt=" " width="100%" style="max-height:400px">
+                        <img src="images/portfolio/full/item2.jpg" alt=" " class="img-responsive">
                     </div>
                 </div>                 
             </li>
             <!--/Item 2-->
 
             <!--Item 3-->
-            <li>
+            <li class="col-sm-3">
                 <div class="preview">
-                    <img alt=" " src="images/portfolio/thumb/item3.jpg">
+                    <img alt=" " src="images/portfolio/thumb/item3.jpg" class="img-responsive">
                     <div class="overlay">
                     </div>
                     
@@ -261,9 +260,9 @@
             <!--/Item 3--> 
 
             <!--Item 4-->
-            <li>
+            <li class="col-sm-3">
                 <div class="preview">
-                    <a href="#"><img alt=" " src="images/portfolio/thumb/item4.jpg"></a>
+                    <a href="#"><img alt=" " src="images/portfolio/thumb/item4.jpg" class="img-responsive"></a>
                     <div class="overlay">
                     </div>
                     
@@ -274,7 +273,7 @@
                 <div id="modal-4" class="modal hide fade">
                     <a class="close-modal" href="javascript:;" data-dismiss="modal" aria-hidden="true"><i class="icon-remove"></i></a>
                     <div class="modal-body">
-                        <img src="images/portfolio/full/item4.jpg" alt=" " width="100%" style="max-height:400px">
+                        <img src="images/portfolio/full/item4.jpg" alt=" " class="img-responsive">
                     </div>
                 </div>                 
             </li>
@@ -284,66 +283,13 @@
     </div>
 
 </section>
+    
+    
+    
 
-<section id="clients" class="main">
-    <div class="container">
-        <div class="row-fluid">
-            <div class="span2">
-                <div class="clearfix">
-                    <h4 class="pull-left">НАШИ ПАРТНЁРЫ</h4>
-                    <div class="pull-right">
-                        <a class="prev" href="#myCarousel" data-slide="prev"><i class="icon-angle-left icon-large"></i></a> <a class="next" href="#myCarousel" data-slide="next"><i class="icon-angle-right icon-large"></i></a>
-                    </div>
-                </div>
-                <p>Тут можно выложить логотипы университетов, с которыми мы сотрудничаем.</p>
-            </div>
-            <div class="span10">
-                <div id="myCarousel" class="carousel slide clients">
-                  <!-- Carousel items -->
-                  <div class="carousel-inner">
-                    <div class="active item">
-                        <div class="row-fluid">
-                            <ul class="thumbnails">
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client1.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client2.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client3.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client4.png"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row-fluid">
-                            <ul class="thumbnails">
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client4.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client3.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client2.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client1.png"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="item">
-                        <div class="row-fluid">
-                            <ul class="thumbnails">
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client1.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client2.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client3.png"></a></li>
-                                <li class="span3"><a href="#"><img src="images/sample/clients/client4.png"></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- /Carousel items -->
-
-            </div>
-        </div>
-    </div>
-</div>
-</section>
-
-<?php require 'blocks/footer.php'; ?>
-<!--/Footer-->
+    <!--/Footer-->
+    <?php require 'blocks/footer.php'; ?>
+    <!--/Footer-->
 
 
 
